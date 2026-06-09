@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BODYSHAPER | Plus Size Shapewear | 自由随心系列</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">BODYSHAPER</div>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">BODYSHAPER</div>
+            <div class="nav-links">
+                <a href="#products">Products</a>
+                <a href="#features">Features</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact" class="btn-nav">Order Now</a>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 移动端菜单 -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#products">Products</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn-primary">Order Now</a>
+    </div>
+
+    <!-- 英雄区域 -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-circle hero-circle-1"></div>
+            <div class="hero-circle hero-circle-2"></div>
+            <div class="hero-circle hero-circle-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">NEW COLLECTION 2026</div>
+            <h1>
+                <span class="hero-line">Shape Your</span>
+                <span class="hero-line gradient-text">Confidence</span>
+            </h1>
+            <p class="hero-subtitle-cn">专为大码女性设计的塑身裤，舒适无痕，自然收腹提臀</p>
+            <p class="hero-subtitle">Premium shapewear designed for plus-size women. Seamless, comfortable, and effortlessly beautiful.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn-primary btn-large">
+                    <span>Shop Collection</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#contact" class="btn-secondary">Contact Us</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="50000">0</span>+
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="100">0</span>+
+                    <span class="stat-label">Color Options</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="4">0</span>XL-5XL
+                    <span class="stat-label">Plus Sizes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 滚动提示 -->
+    <div class="scroll-indicator">
+        <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll Down</span>
+    </div>
+
+    <!-- 产品系列 -->
+    <section id="products" class="products">
+        <div class="section-header">
+            <div class="section-tag">COLLECTION</div>
+            <h2>Our Products</h2>
+            <p class="section-subtitle-cn">精选款式，总有一款适合你</p>
+            <p>Multiple styles designed to fit your unique needs</p>
+        </div>
+        <div class="products-grid">
+            <!-- 款式1 -->
+            <a href="product.html?img=product-1.jpg" class="product-card" data-aos="fade-up">
+                <div class="product-image">
+                    <img src="product-1.jpg" alt="Lace Shapewear">
+                    <div class="product-overlay">
+                        <span class="product-badge">HOT</span>
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Lace Edition <span class="product-cn">蕾丝花边款</span></h3>
+                    <p>Elegant lace design, sexy yet comfortable. Perfect for daily wear and special occasions.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>10+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式2 -->
+            <a href="product.html?img=product-2.jpg" class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="product-2.jpg" alt="Classic Shaper">
+                    <div class="product-overlay">
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Shaper <span class="product-cn">基础收腹款</span></h3>
+                    <p>Classic high-waist design with strong tummy control. Smooth waistline, invisible under clothes.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>10+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式3 -->
+            <a href="product.html?img=product-3.jpg" class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="product-3.jpg" alt="High-Waist Lift">
+                    <div class="product-overlay">
+                        <span class="product-badge new">NEW</span>
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>High-Waist Lift <span class="product-cn">高腰提臀款</span></h3>
+                    <p>Extra high waistband with butt-lifting effect. Creates perfect S-curve silhouette naturally.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>12+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式4 -->
+            <a href="product.html?img=product-4.jpg" class="product-card" data-aos="fade-up">
+                <div class="product-image">
+                    <img src="product-4.jpg" alt="Scallop Edge">
+                    <div class="product-overlay">
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Scallop Edge <span class="product-cn">波浪花边款</span></h3>
+                    <p>Unique scallop edge design. Trendy, age-reducing, and comfortable without digging into skin.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>8+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式5 -->
+            <a href="product.html?img=product-5.jpg" class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="product-5.jpg" alt="Plus Comfort">
+                    <div class="product-overlay">
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Plus Comfort <span class="product-cn">超大码舒适款</span></h3>
+                    <p>Designed specifically for plus-size bodies. Extra stretch for maximum comfort all day long.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>6+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式6 -->
+            <a href="product.html?img=product-6.jpg" class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="product-6.jpg" alt="Ribbed Lace">
+                    <div class="product-overlay">
+                        <span class="product-badge">BEST SELLER</span>
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ribbed Lace <span class="product-cn">条纹花边款</span></h3>
+                    <p>Ribbed fabric with lace trim. Slimming and sexy, available in 15+ stunning colors.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>15+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式7 -->
+            <a href="product.html?img=product-7.jpg" class="product-card" data-aos="fade-up">
+                <div class="product-image">
+                    <img src="product-7.jpg" alt="Solid Basic">
+                    <div class="product-overlay">
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Solid Basic <span class="product-cn">纯色基础款</span></h3>
+                    <p>Simple solid color design. Versatile for everyday wear with skin-friendly fabric.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>10+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+
+            <!-- 款式8 -->
+            <a href="product.html?img=product-8.jpg" class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="product-8.jpg" alt="Cotton Breathable">
+                    <div class="product-overlay">
+                        <span class="btn-quick-view">View Details</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Cotton Breathable <span class="product-cn">棉质透气款</span></h3>
+                    <p>Cotton crotch panel, breathable and sweat-wicking. Healthy and comfortable for all seasons.</p>
+                    <div class="product-meta">
+                        <span>Size: 4XL-5XL</span>
+                        <span>8+ Colors</span>
+                    </div>
+                    <span class="btn-product">View Details / 查看详情</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 产品特点 -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <div class="section-tag">WHY CHOOSE US</div>
+            <h2>Our Features</h2>
+            <p class="section-subtitle-cn">品质保证，舒适体验</p>
+            <p>Quality guaranteed for your ultimate comfort</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon">🩱</div>
+                <h3>Tummy Control</h3>
+                <p class="feature-cn">收腹塑形</p>
+                <p>High-waist design with 360° tummy control. Smooths waistline for a slimmer, confident look.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">🍑</div>
+                <h3>Butt Lifting</h3>
+                <p class="feature-cn">提臀翘臀</p>
+                <p>3D cut lifting design creates a natural perky butt and charming S-curve silhouette.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">☁️</div>
+                <h3>Seamless Comfort</h3>
+                <p class="feature-cn">舒适无痕</p>
+                <p>Seamless cutting technology. Completely invisible under any outfit, free and comfortable.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon">🎨</div>
+                <h3>100+ Colors</h3>
+                <p class="feature-cn">多色可选</p>
+                <p>From classic black to lavender purple. Match every outfit in your wardrobe perfectly.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">📐</div>
+                <h3>Plus Size Expert</h3>
+                <p class="feature-cn">大码专供</p>
+                <p>Designed for 4XL-5XL bodies. Moderate stretch that hugs without tightness or discomfort.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">🧵</div>
+                <h3>Premium Fabric</h3>
+                <p class="feature-cn">优质面料</p>
+                <p>Selected high-stretch fabric. Soft, skin-friendly, breathable, and retains shape wash after wash.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 公司优势 -->
+    <section class="advantages">
+        <div class="section-header">
+            <div class="section-tag">OUR ADVANTAGES</div>
+            <h2>Why Choose Us</h2>
+            <p class="section-subtitle-cn">我们的优势</p>
+            <p>Trusted by international buyers worldwide</p>
+        </div>
+        <div class="advantages-grid">
+            <div class="advantage-card" data-aos="fade-up">
+                <div class="advantage-icon">🏭</div>
+                <h3>Large Scale Factory <span class="advantage-cn">大型工厂保障</span></h3>
+                <p>We operate a large-scale manufacturing facility with advanced production lines, ensuring consistent quality and fast delivery for every order.</p>
+                <p class="advantage-desc-cn">我们拥有大型制造工厂和先进生产线，确保每笔订单的质量稳定和快速交付。</p>
+            </div>
+            <div class="advantage-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="advantage-icon">🌍</div>
+                <h3>Global Export <span class="advantage-cn">面向海外出口</span></h3>
+                <p>Our products are exported to dozens of countries worldwide. We have extensive experience in international trade and understand global market needs.</p>
+                <p class="advantage-desc-cn">我们的产品出口到全球数十个国家，拥有丰富的国际贸易经验，深谙全球市场需求。</p>
+            </div>
+            <div class="advantage-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="advantage-icon">⭐</div>
+                <h3>High Reputation <span class="advantage-cn">极高国际评价</span></h3>
+                <p>Trusted and praised by international merchants worldwide. Our quality and service have earned us an excellent reputation in the global market.</p>
+                <p class="advantage-desc-cn">深受全球海外商户信赖和好评，我们的品质和服务在全球市场赢得了极高声誉。</p>
+            </div>
+            <div class="advantage-card" data-aos="fade-up">
+                <div class="advantage-icon">🤝</div>
+                <h3>OEM/ODM Service <span class="advantage-cn">支持定制生产</span></h3>
+                <p>We support OEM and ODM services. Custom logos, packaging, and designs are available to meet your specific business needs.</p>
+                <p class="advantage-desc-cn">支持OEM和ODM定制服务，可定制Logo、包装和设计，满足您的特定业务需求。</p>
+            </div>
+            <div class="advantage-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="advantage-icon">📦</div>
+                <h3>Fast Delivery <span class="advantage-cn">快速发货</span></h3>
+                <p>In-stock items ship within 24-48 hours. We work with major international logistics partners for reliable worldwide delivery.</p>
+                <p class="advantage-desc-cn">现货24-48小时内发货，与国际主流物流公司合作，确保全球可靠配送。</p>
+            </div>
+            <div class="advantage-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="advantage-icon">💎</div>
+                <h3>Quality Assurance <span class="advantage-cn">品质保证</span></h3>
+                <p>Every product undergoes strict quality inspection. We offer hassle-free returns for any quality issues, ensuring your complete satisfaction.</p>
+                <p class="advantage-desc-cn">每件产品都经过严格质量检测，如有质量问题包退换，确保您完全满意。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 图片画廊 - 静态幻灯片 -->
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <div class="section-tag">GALLERY</div>
+            <h2>More Styles</h2>
+            <p class="section-subtitle-cn">更多款式展示</p>
+            <p>Explore our complete collection</p>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <div class="slide active">
+                    <img src="product-9.jpg" alt="Style 1">
+                    <div class="slide-caption">Style 1 / 款式一</div>
+                </div>
+                <div class="slide">
+                    <img src="product-10.jpg" alt="Style 2">
+                    <div class="slide-caption">Style 2 / 款式二</div>
+                </div>
+                <div class="slide">
+                    <img src="product-4.jpg" alt="Style 3">
+                    <div class="slide-caption">Style 3 / 款式三</div>
+                </div>
+                <div class="slide">
+                    <img src="product-6.jpg" alt="Style 4">
+                    <div class="slide-caption">Style 4 / 款式四</div>
+                </div>
+            </div>
+            <button class="slide-btn prev" onclick="changeSlide(-1)">❮</button>
+            <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+            <div class="slide-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA联系区域 -->
+    <section id="contact" class="cta">
+        <div class="cta-bg">
+            <div class="cta-circle cta-circle-1"></div>
+            <div class="cta-circle cta-circle-2"></div>
+        </div>
+        <div class="cta-content">
+            <h2>Ready to Order?</h2>
+            <p class="cta-subtitle-cn">添加微信，获取最新款式和优惠价格</p>
+            <p class="cta-subtitle">Add our WeChat for latest styles and best wholesale prices</p>
+
+            <div class="wechat-box">
+                <div class="wechat-icon">💬</div>
+                <div class="wechat-info">
+                    <span class="wechat-label">WeChat / 微信</span>
+                    <span class="wechat-id" id="wechatId">abcd111666888abcd</span>
+                </div>
+                <button class="btn-copy" onclick="copyWechat()">
+                    <span class="copy-text">Copy</span>
+                    <span class="copy-success">Copied!</span>
+                </button>
+            </div>
+
+            <div class="cta-features">
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">📦</span>
+                    <div>
+                        <strong>Fast Shipping</strong>
+                        <span>现货秒发</span>
+                    </div>
+                </div>
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">💰</span>
+                    <div>
+                        <strong>Wholesale & Retail</strong>
+                        <span>批发零售</span>
+                    </div>
+                </div>
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">🔄</span>
+                    <div>
+                        <strong>Quality Guarantee</strong>
+                        <span>质量问题包退</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="size-guide">
+                <h3>Size Guide <span class="size-cn">尺码参考</span></h3>
+                <div class="size-table">
+                    <div class="size-item">
+                        <span class="size-label">4XL</span>
+                        <span class="size-desc">Weight: 70-80kg</span>
+                        <span class="size-desc-cn">建议体重 140-160斤</span>
+                    </div>
+                    <div class="size-item">
+                        <span class="size-label">5XL</span>
+                        <span class="size-desc">Weight: 80-90kg</span>
+                        <span class="size-desc-cn">建议体重 160-180斤</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">BODYSHAPER</div>
+            <p class="footer-tagline">Free Your Body Collection · 自由随心系列</p>
+            <div class="footer-contact">
+                <p>WeChat: <strong>abcd111666888abcd</strong></p>
+            </div>
+            <p class="footer-copyright">© 2026 BODYSHAPER. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <button class="back-to-top" id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
